@@ -15,7 +15,7 @@
         <hr>
 
         <h1>Context</h1>
-        <p>If we want to make a table in html we can use the "table" tag and also if we want to make the table more good we can use atribute like <i>border, cellspacing, cellpadding, and etc. But, I have an advice for this the atribute is using for learn and if we want to make our table more better in design thats reccomended to using css.</i></p>
+        <p>If we want to make a table in html we can use the "table" tag including <i>"thead", "tbody", "tr", "th", "td", etc,</i> and also if we want to make the table more good we can use atribute like <i>border, cellspacing, cellpadding, and etc</i>. But, I have an advice for this the atribute is using for learn and if we want to make our table more better in design thats reccomended to using css.</p>
 
         <h1>Implementation</h1>
         <p>And now, I will show you how to make a table with html. This is so simple, you just need to add "table" tag and "tr" tag for row and "td" tag for column. And, you can see the example bellow !</p>
@@ -38,6 +38,9 @@
 
             <thead>
                 <tr>
+                    <th colspan="2">Main Judul</th>
+                </tr>
+                <tr>
                     <th>Ini Judul 1</th>
                     <th>Ini Judul 2</th>
                 </tr>
@@ -58,72 +61,208 @@
             </tbody>
         </table>
 
+        <hr>
+        <h1><i>Practices Manipulate Table</i></h1>
+        <p>On this section I learn about how to implement and manipulate two atribute "<em>colspan</em>", and "<em>rowspan</em>". Here the practices that I just finish :</p>
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tbody>
+                <tr>
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                    <td>1.4</td>
+                    <td>1.5</td>
+                    <td>1.6</td>
+                    <td>1.7</td>
+                    <td>1.8</td>
+                    <td>1.9</td>
+                    <td>1.10</td>
+                </tr>
+
+                <tr>
+                    <td>2.1</td>
+                    <td colspan="2" rowspan="2" bgcolor="black"></td>
+                    <td>2.4</td>
+                    <td>2.5</td>
+                    <td>2.6</td>
+                    <td>2.7</td>
+                    <td colspan="2" rowspan="2" bgcolor="black"></td>
+                    <td>2.10</td>
+                </tr>
+
+                <tr>
+                    <td>3.1</td>
+                    <td>3.4</td>
+                    <td>3.5</td>
+                    <td>3.6</td>
+                    <td>3.7</td>
+                    <td>3.10</td>
+                </tr>
+
+                <tr>
+                    <td>4.1</td>
+                    <td>4.2</td>
+                    <td>4.3</td>
+                    <td>4.4</td>
+                    <td>4.5</td>
+                    <td>4.6</td>
+                    <td>4.7</td>
+                    <td>4.8</td>
+                    <td>4.9</td>
+                    <td>4.10</td>
+                </tr>
+
+                <tr>
+                    <td>5.1</td>
+                    <td>5.2</td>
+                    <td>5.3</td>
+                    <td>5.4</td>
+                    <td colspan="2" rowspan="2" bgcolor="red"></td>
+                    <td>5.7</td>
+                    <td>5.8</td>
+                    <td>5.9</td>
+                    <td>5.10</td>
+                </tr>
+
+                <tr>
+                    <td>6.1</td>
+                    <td>6.2</td>
+                    <td>6.3</td>
+                    <td>6.4</td>
+                    <td>6.7</td>
+                    <td>6.8</td>
+                    <td>6.9</td>
+                    <td>6.10</td>
+                </tr>
+
+                <tr>
+                    <td>7.1</td>
+                    <td>7.2</td>
+                    <td bgcolor="black"></td>
+                    <td>7.4</td>
+                    <td>7.5</td>
+                    <td>7.6</td>
+                    <td>7.7</td>
+                    <td bgcolor="black"></td>
+                    <td>7.9</td>
+                    <td>7.10</td>
+                </tr>
+
+                <tr>
+                    <td>8.1</td>
+                    <td>8.2</td>
+                    <td>8.3</td>
+                    <td bgcolor="black"></td>
+                    <td>8.5</td>
+                    <td>8.6</td>
+                    <td bgcolor="black"></td>
+                    <td>8.8</td>
+                    <td>8.9</td>
+                    <td>8.10</td>
+                </tr>
+
+                <tr>
+                    <td>9.1</td>
+                    <td>9.2</td>
+                    <td>9.3</td>
+                    <td>9.4</td>
+                    <td bgcolor="black"></td>
+                    <td bgcolor="black"></td>
+                    <td>9.7</td>
+                    <td>9.8</td>
+                    <td>9.9</td>
+                    <td>9.10</td>
+                </tr>
+
+                <tr>
+                    <td>10.1</td>
+                    <td>10.2</td>
+                    <td>10.3</td>
+                    <td>10.4</td>
+                    <td>10.5</td>
+                    <td>10.6</td>
+                    <td>10.7</td>
+                    <td>10.8</td>
+                    <td>10.9</td>
+                    <td>10.10</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </table>
+
             <hr>
 
             <h3>Let's make table for my learn html activty !</h3>
+            <p>Okay, last let's make some useful table here. And I just think about use table for saving my personal practices activity so it will can more organized. Here the result !.</p>
 
-            <table border="1" cellspacing="0" cellpadding="5">
-                <thead>
-                    <tr>
-                        <th>Practice</th>
-                        <th>Content</th>
-                        <th>Date</th>
-                        <th>Access</th>
-                    </tr>
-                </thead>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th colspan="4">Road To Fullsatck Web Dev.</th>
+                </tr>
+                <tr>
+                    <th>Practice</th>
+                    <th>Content</th>
+                    <th>Date</th>
+                    <th>Access</th>
+                </tr>
+            </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Practice 1</td>
-                        <td>Creating Paragraph</td>
-                        <td>09/03/2025</td>
-                        <td><a href="../practice 1.html">Link</a></td>
-                    </tr>
-                </tbody>
+            <tbody>
+                <tr>
+                    <td>Practice 1</td>
+                    <td>Creating Paragraph</td>
+                    <td>09/03/2025</td>
+                    <td><a href="../practice 1.html">Link</a></td>
+                </tr>
+            </tbody>
 
-                <tbody>
-                    <tr>
-                        <td>Practice 2</td>
-                        <td>Heading Knowledge</td>
-                        <td>09/03/2025</td>
-                        <td><a href="../practice 2.html">Link</a></td>
-                    </tr>
-                </tbody>
+            <tbody>
+                <tr>
+                    <td>Practice 2</td>
+                    <td>Heading Knowledge</td>
+                    <td>09/03/2025</td>
+                    <td><a href="../practice 2.html">Link</a></td>
+                </tr>
+            </tbody>
 
-                <tbody>
-                    <tr>
-                        <td>Practice 3</td>
-                        <td>Creating Hyperlink</td>
-                        <td>10/03/2025</td>
-                        <td><a href="../practice3/practice 3.html">Link</a></td>
-                    </tr>
-                </tbody>
+            <tbody>
+                <tr>
+                    <td>Practice 3</td>
+                    <td>Creating Hyperlink</td>
+                    <td>10/03/2025</td>
+                    <td><a href="../practice3/practice 3.html">Link</a></td>
+                </tr>
+            </tbody>
 
-                <tbody>
-                    <tr>
-                        <td>Practice 4</td>
-                        <td>Adding Image</td>
-                        <td>10/03/2025</td>
-                        <td><a href="../practice4/practice 4.html">Link</a></td>
-                    </tr>
-                </tbody>
+            <tbody>
+                <tr>
+                    <td>Practice 4</td>
+                    <td>Adding Image</td>
+                    <td>10/03/2025</td>
+                    <td><a href="../practice4/practice 4.html">Link</a></td>
+                </tr>
+            </tbody>
 
-                <tbody>
-                    <tr>
-                        <td>Practice 5</td>
-                        <td>Creating Table</td>
-                        <td>11/03/2025</td>
-                        <td><a href="practice 5.html">Link</a></td>
-                    </tr>
-                </tbody>
-
+            <tbody>
+                <tr>
+                    <td>Practice 5</td>
+                    <td>Creating Table</td>
+                    <td>11/03/2025</td>
+                    <td><a href="practice 5.html">Link</a></td>
+                </tr>
+            </tbody>
             </table>
 
-        </table>
+
 
         <hr>
 
         <ul><a href="../index.html"><h3>-> Back to Home <-</h3></a></ul>
+
 
 
     </body>
