@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 7!</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="Creating Form">
+    <meta name="keywords" content="Web Dev, Fullstack Dev, Frontend Dev, Backend Dev">
+    <meta name="author" content="Ihsan Nursyahjiwa">
+</head>
+<body>
+    Hallo Guys !. Today, <i>March 13th 2025</i> I've learn about how to create a form in HTML.
+    This form can create with <strong>"form"</strong> tag. Lets start !
+
+    <hr>
+
+    <h1>Context</h1>
+    Form have a function to collect our data, the example is like form regrister or form login. In HTML we have a fiew type of form like text, password, radio button, checkbox,and etc. But, all the fitur have a same function to collect the data. Here the example of a fiew form with different style.
+
+    <ol type="1">
+        <li>
+            <dl>
+                <dt><h2>Text Form</h2></dt>
+                <p>Text form simply is like this :</p>
+
+                <dd>
+                    <form action="">
+                        <label for="">Username : </label><input type="text" name="" id="" value="thisisusername">
+                        
+                        <br><br>
+
+                        <label for="">Try input something : </label><input type="text" name="" id="">
+                    </form>
+                </dd>
+
+                <p>You can input any text in this field such as username, you data, etc.</p>
+
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Password Form</h2></dt>
+                <p>This Example of Password Form :</p>
+
+
+                <dd>
+                    <form action="">
+                        <label for="">Password : </label><input type="password" name="" id="" value="thisispassword">
+
+                        <br><br>
+
+                        <label for="">Try to input your password : </label><input type="password">
+                    </form>
+                </dd>
+
+                <p>Same as text form using input tag to creating but have different of type on this password field any kind of your typing will be not showed or will be change with a bullet or star.</p>
+
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Text Area</h2></dt>
+                <p>You can see the example on below.</p>
+
+                <dd>
+                    <table>
+
+                        <tr>
+                            <td>Description :  </td>
+                            <td>
+                                <form action="">
+                                    <textarea name="" id="" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis animi suscipit libero possimus asperiores illum, natus, itaque doloremque veniam culpa tenetur error minima aut neque sunt est! Aperiam, error.</textarea>
+                                </form>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Input your description :</td>
+                            <td>
+                                <form action="">
+                                    <textarea name="" id="" rows="5"></textarea>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </dd>
+
+                <p>Text area is like text form but this field have more space than text forms. </p>
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Radio Button</h2></dt>
+                <p>Here's the Example.</p>
+
+                    <dd>
+                        <form action="">
+                            <input type="radio" name="gender" id=""><label for="">Cwk</label>
+                            <input type="radio" name="gender" id=""><label for="">Cwk</label>
+                            <input type="radio" name="gender" id=""><label for="">Prefered not say.</label>
+                        </form>
+                    </dd>
+
+                <p>Radio button can using for choice one of list, the simply example is for choice the gender.</p>
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Checkbox</h2></dt>
+                <p>Here's the examle of Checkbox form style.</p>
+
+                    <dd>
+                        <form action="">
+                            <label for="">Hobbies : </label>
+                            <br><br>
+                            <input type="checkbox" name="" id=""><label for="">Makan</label>
+                            <input type="checkbox" name="" id=""><label for="">Tidur</label>
+                            <input type="checkbox" name="" id=""><label for="">bergadang</label>
+                        </form>
+                    </dd>
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Dropdown.</h2></dt>
+                <p>Example :</p>
+
+                <dd>
+                    <label for="">Asal : </label>
+                    <br><br>
+                    <form action="">
+                        <select name="" id="">
+                            <option value="">Tonggoh</option>
+                            <option value="">Lebak</option>
+                            <option value="">Wetan</option>
+                            <option value="">Kulon</option>
+                        </select>
+                    </form>
+                </dd>
+            </dl>
+        </li>
+
+        <br>
+
+        <li>
+            <dl>
+                <dt><h2>Submit</h2></dt>
+                <p>Button for send data or usualy called submit.</p>
+
+                <dd>
+                    <form action="">
+                        <input type="submit" name="" id="" value="Kirim !">
+                    </form>
+                </dd>
+                <p>Okay, thats all what I've learn so lets try to do something with the form tag !. Here we go.</p>
+            </dl>
+        </li>
+
+    </ol>
+
+    <hr>
+
+    <h1>Implementation</h1>
+
+    
+
+    <table border="0" cellspacing="0" cellpadding="10">
+
+        <tr style="text-align: center;">
+            <td colspan="6"><h2>Form Regrister</h2></td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <form action="">
+                    <input type="text" placeholder="Nama Depan" name="" id="">
+                </form> 
+            </td>
+
+            <td colspan="3">
+                <form action="">
+                    <input type="text" size="20" placeholder="Nama Belakang" name="" id="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6">
+                <form action="">
+                    <input type="text" placeholder="Username" size="46" id="">
+                </form>
+            </td>
+        </tr>   
+        
+        <tr>
+            <td colspan="6">
+                <form action="">
+                    <input type="password" placeholder="Password" size="46" id="">
+                </form>
+            </td>
+        </tr>  
+        
+        <tr>
+            <td colspan="6" style="text-align: center;">
+                <form action="">
+                    <input type="radio" name="gender" id="wanita"><label for="wanita">Wanita</label>
+                    <input type="radio" name="gender" id="Laki-laki"><label for="Laki-laki">Laki-laki</label>
+                    <input type="radio" name="gender" id="Prefered not to say"><label for="Prefered not to say">Prefered not to say</label>
+                </form>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="6">Jurusan :</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <form action="">
+                    <select name="" id="">
+                        <option value="">FKOMINFO</option>
+                        <option value="">FKWU</option>
+                        <option value="">FTEKNIK</option>
+                        <option value="">FAPERTA</option>
+                        <option value="">FPIK</option>
+                        <option value="">FMIPA</option>
+                        <option value="">FEKON</option>
+                        <option value="">FISIP</option>
+                    </select>
+                </form>
+            </td>
+
+            <td colspan="2" style="text-align: center;">
+                <form action="">
+                    <select name="" id="">
+                        <option value="">RPL</option>
+                        <option value="">TI</option>
+                        <option value="">RSK</option>
+                        <option value="">ILKOM</option>
+                    </select>
+                </form>
+            </td>
+
+            <td colspan="2" style="text-align: center;">
+                <form action="">
+                    <select name="" id="">
+                        <option value="">2015</option>
+                        <option value="">2016</option>
+                        <option value="">2017</option>
+                        <option value="">2018</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                    </select>
+                </form>
+            </td>
+        </tr>      
+        
+        <tr>
+            <td colspan="6">Organisasi :</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">Himpunan</label>
+                    <br>
+                </form>
+
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">UKM PRC</label>
+                    <br>
+                </form>
+
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">UKM RIT</label>
+                    <br>
+                </form>
+            </td>
+
+            <td colspan="2">
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">UKM Mapalikom</label>
+                    <br>
+                </form>
+
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">UKM Periskop</label>
+                    <br>
+                </form>
+
+                <form action="">
+                    <input type="checkbox" name="" id=""><label for="">UKM CDU</label>
+                    <br>
+                </form>
+            </td>
+
+
+
+            <td colspan="2">
+            <form action="">
+                <input type="checkbox" name="" id=""><label for="">UKM ENCIFY</label>
+                <br>
+            </form>
+
+            <form action="">
+                <input type="checkbox" name="" id=""><label for="">UKM Tari</label>
+                <br>
+            </form>
+
+            <form action="">
+                <input type="checkbox" name="" id=""><label for="">UKM Futsal</label>
+                <br>
+            </form>
+        </td>
+        </tr>
+
+        <tr>
+            <td colspan="6">
+                <form action="">
+                    <input type="text" placeholder="Tulis disini jika oragnisasi tidak tertera" name="" size="46" id="">
+                </form>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="6">
+                <form action="">
+                    <textarea name="" rows="10" cols="46" size="45" placeholder="Deskripsi" id=""></textarea>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+
+            <td colspan="2" style="text-align: center;">
+                <form action="">
+                    <input type="submit" name="" id="" value="Kirimkan !">
+                </form>
+            </td>
+
+            <td colspan="2"></td>
+        </tr>
+
+    </table>
+
+    <p>Okay guys, thats all what i've learn and this is the final practices from Basic HTML WPU playlist. Next I'll learn about CSS!</p>
+
+    <hr>
+
+
+
+    <u><a href="../index.html"><h4>-> Back to Home <-</h4></a></u>
+
+    
+
+    <a href="../practice7/practice.html">aa</a>
+
+
+    
+</body>
+</html>
