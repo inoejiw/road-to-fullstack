@@ -1,0 +1,17 @@
+h1{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: navy;
+}
+
+p {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: navy;
+}
